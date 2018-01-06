@@ -13,7 +13,7 @@ services:
   db:
     image: postgres:9.4
     environment:
-      - POSTGRES_PASSWORD=odoo0
+      - POSTGRES_PASSWORD=odoo
       - POSTGRES_USER=odoo
       - PGDATA=/var/lib/postgresql/data/pgdata
     volumes:
